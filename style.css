@@ -1,0 +1,154 @@
+.page {
+  display: none;
+  background: rgb(249, 249, 249);
+  width: auto;
+  margin: 8vw 10vw;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.page:target {
+  display: block;
+}
+
+.imgclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgclass img {
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.text-home-page {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.text-home-page p {
+  font-size: larger;
+}
+
+.buttonclass {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.button-list button {
+  background-color: transparent;
+  border: none;
+}
+.button-list button img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.list-Vbutton {
+  position: absolute;
+  top: 42%;
+  transform: translateY(-42%);
+  right: 5px;
+}
+
+.list-Vbutton li {
+  display: block;
+  margin: 10px;
+}
+
+.list-Vbutton li a img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+}
+#info-page h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.text-info-page {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#education-page h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.text-education-page {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#experience-page h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.text-experience-page {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#blog-page h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.text-blog-page {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.download-button {
+  display: inline-block;
+  background-color: #3b5998;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #2a4c84;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+button:hover,
+li:hover {
+  box-shadow: 0 0 5px gray;
+  border-radius: 5px;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
