@@ -119,6 +119,7 @@ li {
 }
 .project{
   padding: 0.5rem 0;
+  margin-left: 5px;
 }
 .project-ui a{
   color: rgb(49, 49, 49);
