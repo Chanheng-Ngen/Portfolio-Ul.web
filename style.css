@@ -117,7 +117,10 @@ li {
   padding-right: 20px;
   padding-bottom: 20px;
 }
-.text-blog-page :nth-child(3){
+.project{
+  padding: 0.5rem 0;
+}
+.project-ui a{
   color: rgb(49, 49, 49);
 }
 a{
