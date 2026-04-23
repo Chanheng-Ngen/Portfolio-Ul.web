@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showPage(blogPage);
   });
 
-  const version = '1.0.0';
+  const version = '1.0.1';
   const versionElement = document.getElementById('version');
   if (versionElement) {
     versionElement.innerHTML = `Version ${version}`;
